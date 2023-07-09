@@ -1,0 +1,5 @@
+# m h  dom mon dow   command
+@reboot cd /home/teamlary/gitHubRepos/poLoNodes/firmware/xu4LoRa && ./runAll.sh
+
+
+

@@ -1,0 +1,28 @@
+Error: Cannot save result for example/soundscape.wav.
+Traceback (most recent call last):
+  File "/Users/mazhar12576/Desktop/BirdNET-Analyzer/analyze.py", line 317, in analyzeFile
+    saveResultFile(results, os.path.join(cfg.OUTPUT_PATH, rpath.rsplit('.', 1)[0] + rtype), fpath)
+  File "/Users/mazhar12576/Desktop/BirdNET-Analyzer/analyze.py", line 183, in saveResultFile
+    rstring += '{},{},{},{},{:.4f},{}\n'.format(
+IndexError: Replacement index 5 out of range for positional args tuple
+
+Error: Cannot save result for example/soundscape.wav.
+Traceback (most recent call last):
+  File "/Users/mazhar12576/Desktop/BirdNET-Analyzer/analyze.py", line 317, in analyzeFile
+    saveResultFile(results, os.path.join(cfg.OUTPUT_PATH, rpath.rsplit('.', 1)[0] + rtype), fpath)
+  File "/Users/mazhar12576/Desktop/BirdNET-Analyzer/analyze.py", line 183, in saveResultFile
+    rstring += '{},{},{},{},{},{:.4f}\n'.format(
+IndexError: Replacement index 5 out of range for positional args tuple
+
+Error: Cannot save result for example/soundscape.wav.
+Traceback (most recent call last):
+  File "/Users/mazhar12576/Desktop/BirdNET-Analyzer/analyze.py", line 317, in analyzeFile
+    saveResultFile(results, os.path.join(cfg.OUTPUT_PATH, rpath.rsplit('.', 1)[0] + rtype), fpath)
+  File "/Users/mazhar12576/Desktop/BirdNET-Analyzer/analyze.py", line 179, in saveResultFile
+    for c in r[timestamp]:
+NameError: name 'r' is not defined
+
+Error: Cannot open audio file folder3/
+Error: Cannot open audio file folder3/
+Error: Cannot open audio file NC/
+Error: Cannot open audio file NC/Audio.wav
